@@ -88,7 +88,7 @@ def bestellung():
             bestellung.kosten(gerichten, getranken) #das kosten des bestellungs
             bestellung.zeit(gerichten)  #die methode fur die zeit des bestellungs
             print(bestellung.afis(id_k, kunde, gerichten, getranken))
-                   #wir geben das Rechnung mit allen Daten
+                   #wir geben das Rechnung mit allen Daten!!
         if entscheidung == 4:
             break
 
